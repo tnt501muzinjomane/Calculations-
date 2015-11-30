@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @billing.client %>
+</p>
+
+<p>
+  <strong>Month search:</strong>
+  <%= @billing.month_search %>
+</p>
+
+<p>
+  <strong>Year search:</strong>
+  <%= @billing.year_search %>
+</p>
+
+<p>
+  <strong>Month charge:</strong>
+  <%= @billing.month_charge %>
+</p>
+
+<p>
+  <strong>Payment:</strong>
+  <%= @billing.payment %>
+</p>
+
+<p>
+  <strong>Month outstanding:</strong>
+  <%= @billing.month_outstanding %>
+</p>
+
+<p>
+  <strong>Total owing:</strong>
+  <%= @billing.total_owing %>
+</p>
+
+<%= link_to 'Edit', edit_billing_path(@billing) %> |
+<%= link_to 'Back', billings_path %>

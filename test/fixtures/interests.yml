@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  owing: 9.99
+  paying: 9.99
+  outstanding: 9.99
+
+two:
+  owing: 9.99
+  paying: 9.99
+  outstanding: 9.99

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  client: MyString
+  month_search: MyString
+  year_search: 1
+  month_charge: 1.5
+  payment: 1.5
+  month_outstanding: 1.5
+  total_owing: 1.5
+
+two:
+  client: MyString
+  month_search: MyString
+  year_search: 1
+  month_charge: 1.5
+  payment: 1.5
+  month_outstanding: 1.5
+  total_owing: 1.5

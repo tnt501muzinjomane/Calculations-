@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Point1:</strong>
+  <%= @payment.point1 %>
+</p>
+
+<p>
+  <strong>Point2:</strong>
+  <%= @payment.point2 %>
+</p>
+
+<p>
+  <strong>Point3:</strong>
+  <%= @payment.point3 %>
+</p>
+
+<%= link_to 'Edit', edit_payment_path(@payment) %> |
+<%= link_to 'Back', payments_path %>
